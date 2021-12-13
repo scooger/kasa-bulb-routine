@@ -1,0 +1,15 @@
+version: 1
+name: template #name for this routine
+target: bulb #Kasa type defined
+transition: 2000 #default transition time
+repeat: 2 # how many times to repeat 0 = unlimited
+
+stages:
+  - hsv: 0 100 50
+  - hsv: 61 100 50
+  - hsv: 121 100 50
+  - hsv: 181 100 50
+  - hsv: 241 100 50
+  - hsv: 301 100 50
+
+  
